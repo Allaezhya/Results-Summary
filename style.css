@@ -20,21 +20,60 @@ main {
 }
 
 .card {
-	width: 100vh;
-	height: 50vh;
-	background-color: hsl(221, 100%, 96%);
+	width: 90vh;
+	height: 60vh;
+	background-color: rgb(255, 255, 255);
+	border-radius: 2em;
 }
 
 .result {
-    float: left;
-    background-color: blue;
-    height: 50vh;
-    width: 50%;
+	color: white;
+	float: left;
+	background-image: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+	height: 60vh;
+	width: 50%;
+	text-align: center;
+	padding: 1em;
+	border-radius: 2em;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: center;
 }
 
 .summary {
-    float: right;
-    background-color: aquamarine;
-    height: 50vh;
-    width: 50%;
+	float: right;
+	background-color: aquamarine;
+	border-radius: 2em;
+	height: 60vh;
+	width: 50%;
+	padding: 1em;
+}
+
+h1 {
+	color: hsla(221, 100%, 96%, 50%);
+	margin: 1em 0;
+}
+
+.circle {
+	background-image: linear-gradient(
+		hsla(256, 72%, 46%, 1),
+		hsla(241, 72%, 46%, 0)
+	);
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	height: 10em;
+	width: 10em;
+	border-radius: 50%;
+	margin: 1em 0;
+}
+
+.percent {
+	font-size: 3em;
+}
+
+.perof {
+	color: hsla(221, 100%, 96%, 50%);
 }
