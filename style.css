@@ -1,0 +1,28 @@
+@font-face {
+	font-family: "Hanken Grotesk";
+	src: url(./assets/fonts/HankenGrotesk-VariableFont_wght.ttf);
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: "Hanken Grotesk", Arial, sans-serif;
+}
+
+main {
+	background-color: hsl(0, 0%, 100%);
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.card {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: 20vh;
+	height: 100vh;
+	background-color: hsl(221, 100%, 96%);
+}
