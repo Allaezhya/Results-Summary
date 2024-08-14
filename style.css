@@ -77,3 +77,12 @@ h1 {
 .perof {
 	color: hsla(221, 100%, 96%, 50%);
 }
+
+.grade-text {
+	margin: 0.5em 0;
+}
+
+.grade-description {
+	padding: 0 2em;
+	color: hsla(221, 100%, 96%, 60%);
+}
