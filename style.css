@@ -107,15 +107,39 @@ h1 {
 
 .def-icon {
 	float: left;
-	padding: 14px 10px;
+	padding: 13px 10px;
 }
 
 .def-title {
 	float: left;
+	font-size: 1.1em;
 	padding: 12px 0;
+	font-weight: 600;
 }
 
 .def-description {
 	float: right;
 	padding: 12px 10px;
+	color: hsl(224, 30%, 27%);
+	font-weight: 700;
+}
+
+.red {
+	color: hsl(0, 100%, 67%);
+}
+
+.yellow {
+	color: hsl(39, 100%, 56%);
+}
+
+.green {
+	color: hsl(166, 100%, 37%);
+}
+
+.blue {
+	color: hsl(234, 85%, 45%);
+}
+
+span {
+	color: hsla(224, 30%, 27%, 50%);
 }
